@@ -1,6 +1,6 @@
 {
   "name": "@CagyJiao/template-react-component-library",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "template for a react component lib",
   "scripts": {
     "rollup": "rollup -c"
@@ -9,7 +9,9 @@
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^18.0.5",
+    "postcss": "^8.4.12",
     "react": "^18.0.0",
+    "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.3.1",
     "typescript": "^4.6.3"
   },
@@ -19,7 +21,7 @@
     "@rollup/plugin-typescript": "^8.3.2",
     "rollup": "^2.70.2",
     "rollup-plugin-dts": "^4.2.1"
-  }, 
+  },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
