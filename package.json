@@ -3,14 +3,25 @@
   "version": "0.0.2",
   "description": "template for a react component lib",
   "scripts": {
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "test": "jest"
   },
   "author": "CagyJiao",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@testing-library/react": "^13.1.1",
+    "@types/jest": "^27.4.1",
     "@types/react": "^18.0.5",
+    "babel-jest": "^27.5.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.5.1",
     "postcss": "^8.4.12",
     "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.3.1",
     "typescript": "^4.6.3"
